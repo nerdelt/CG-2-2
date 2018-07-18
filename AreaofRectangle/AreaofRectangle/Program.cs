@@ -9,7 +9,7 @@ namespace AreaofRectangle
             int h;
             int y;
 
-            Console.WriteLine("Lets find the area of your rectangle!");
+            Console.WriteLine("Let's find the area of your rectangle!");
             Console.Write("Please type the height of the rectangle: ");
             h = Convert.ToInt32(Console.ReadLine());
 
