@@ -6,17 +6,15 @@ namespace AreaofRectangle
     {
         static void Main(string[] args)
         {
-            int h = int.Parse(h);
-            int y = int.Parse(y);
 
             Console.WriteLine("Let's find the area of your rectangle!");
             Console.Write("Please type the height of the rectangle: ");
-            string h = Console.ReadLine();
+            decimal.lengthSide = decimal.Parse(Console.ReadLine()); 
 
             Console.Write("Please type the width of the rectangle: ");
-            string y =Console.ReadLine();
+            decimal.widthSide = decimal.Parse(Console.ReadLine());
 
-            int area = h*y;
+            decimal area = lengthside * widthSide;
             Console.WriteLine("The area of the rectangle is: {0}", area);
             Console.ReadLine();
 
